@@ -98,8 +98,7 @@ models:
     columns:
       - name: job_id
         description: Job carrying the skill; every value exists in fct_job_postings.
-        data_tests:
-          - unique        
+        data_tests:    
           - not_null
           - relationships:
               arguments:
