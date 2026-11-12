@@ -71,22 +71,6 @@ The marts keep each job's **latest** scrape — the snapshot table keeps **every
 
 ---
 
-## 📖 Docs
-
-Structure, tests, and column descriptions were written along the way — the docs site is a rendering of work already done:
-
-**→ [lukebarousse.github.io/dbt_Analytics_Engineering_Course/project2/](https://phuc157.github.io/dbt-databricks-pipeline/)**
-
-The site shows:
-
-- The full **lineage graph** (raw → staging → intermediate → the star → snapshot)
-- **Model and column descriptions** from the YAMLs
-- Which columns carry **tests**
-
-The same descriptions live in the warehouse itself — `persist_docs` pushes them into Unity Catalog, so Catalog Explorer shows them right next to the data.
-
----
-
 ## 💻 Run it yourself
 
 Prerequisites: a Databricks workspace (the [Free Edition](https://www.databricks.com/learn/free-edition) works) with the raw job-postings data loaded into a `raw` catalog. Then:
