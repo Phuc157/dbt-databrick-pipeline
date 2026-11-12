@@ -1,6 +1,6 @@
 # Production Job Postings Pipeline (v2) - dbt + Databricks
 
-![P2 pipeline architecture](img\p2_pipline.png)
+![P2 pipeline architecture](img/p2_pipline.png)
 
 A production dbt pipeline on **Databricks** over 843,097 raw job_posting scrapes, rebuilt nightly by a scheduled job with zero secrets.
 
